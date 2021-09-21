@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Smart Age is a full service digital marketing agency based in New York City and Rio de Janeiro. Our products and services are constantly evolving!">
+    <meta name="keywords" content="Smart Age, Marketing, E-commerce, Developer">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Smart Age Test</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container-menu">
+            <div class="find-store">
+                <div class="find-store-container">
+                    <img src="images/icons/Location.svg" alt="find a store">
+                    <a class="find-store-link" href="#">Find a store</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img class="logo__letter" src="images/logo/s.svg" alt="s">
+                <img class="logo__letter" src="images/logo/m.svg" alt="m">
+                <img class="logo__letter" src="images/logo/a-black.svg" alt="a">
+                <img class="logo__letter" src="images/logo/r.svg" alt="r">
+                <img class="logo__letter" src="images/logo/t.svg" alt="t">
+                <img class="logo__letter" src="images/logo/a.svg" alt="a">
+                <img class="logo__letter" src="images/logo/g.svg" alt="g">
+                <img class="logo__letter" src="images/logo/e.svg" alt="e">
+            </div>
+            <div class="menu-icons">
+                <ul class="icons__list">
+                    <li class="icons__list-item-1"><a href="#"><img src="images/icons/login.png" alt="login-icon"></a></li>
+                    <li class="icons__list-item-2"><a href="#"><img src="images/icons/heart.svg" alt="heart-icon"></a></li>
+                    <li class="icons__list-item-3"><a href="#"><img src="images/icons/bag.svg" alt="bag-icon"></a></li>
+                    <li class="icons__list-item-4"><a href="#"><img src="images/icons/search.svg" alt="search"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-menu">
+            <div class="menu">
+                <input type="checkbox" id="checkbox-menu" class="checkbox">
+                <label for="checkbox-menu" class="hamb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-1" href="#collections">Collections</a></li>
+                        <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-1" href="#categories">Categories</a></li>
+                        <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-1" href="#stores">Stores</a></li>
+                        <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-1" href="#about">Our Story</a></li>
+                        <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-1" href="#about">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div> 
+        <div class="image-container">
+            <div class="image">
+                <div class="image__slides" id="slide1">
+                    <img class="image__slides-img" src="images/pictures/img-header.svg" alt="">
+                    <h1 class="image__slides-text title color-4">Engagement Ring</h1>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-4"></span>
+                            <span class="back-color-4"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-4">Explore</p>
+                    </a>
+                </div>      
+                <div class="image__slides" id="slide2" style="display: none">
+                    <img class="image__slides-img" src="images/pictures/img-header.svg" alt="">
+                    <h1 class="image__slides-text title color-4">Marriage Ring</h1>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-4"></span>
+                            <span class="back-color-4"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-4">Explore</p>
+                    </a>
+                </div>  
+                <div class="image__slides" id="slide3" style="display: none">
+                    <img class="image__slides-img" src="images/pictures/img-header.svg" alt="">
+                    <h1 class="image__slides-text title color-4">Rings</h1>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-4"></span>
+                            <span class="back-color-4"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-4">Explore</p>
+                    </a>
+                </div> 
+            </div>  
+            <div class="slide-btn">
+                <span class="slide-btn-dot animation-btn" onclick="changeSlide(this, 'slide1')">1</span>
+                <span class="slide-btn-dot animation-btn" onclick="changeSlide(this, 'slide2')">2</span>
+                <span class="slide-btn-dot animation-btn" onclick="changeSlide(this, 'slide3')">3</span>
+                <p class="slide-btn-discovery uppercase-text">Discovery more</p>
+            </div>   
+        </div>
+    </header>
+    <main class="main-container">
+        <section class="original-container">
+            <div class="original">
+                <h1 class="title dark">The original Design</h1>
+                <p class="text dark">Inspired by a spectacular historical legacy and the most refined glamour of the world today.</p>
+                <a class="btn-link" href="#">
+                    <div class="button-circle">
+                        <span class="back-color-1"></span>
+                        <span class="back-color-1"></span>
+                    </div>
+                    <p class="btn-link__text uppercase-text color-1">Explore</p>
+                </a>
+            </div>
+            <figure>
+                <img class="img-banner" src="images/pictures/watch.svg" alt="">
+            </figure>
+        </section>
+        <section class="jewelry">
+           <div class="jewelry__container">
+                <h2 class="subtitle uppercase-text color-1">The latest from</h2>
+                <h1 class="title color-2">Jewelry Store</h1>
+                <p class="text color-1">Discover all that’s new, brilliant and beautiful in the world of Brand's Name.</p>
+                <a class="btn-link" href="#">
+                    <div class="button-circle">
+                        <span class="back-color-1"></span>
+                        <span class="back-color-1"></span>
+                    </div>
+                    <p class="btn-link__text uppercase-text color-1">See more</p>
+                </a>
+           </div>
+        </section>
+        <section class="classic-container">
+            <article class="classic">
+                <div class="classic__img">
+                    <img class="img-banner" src="images/pictures/model.svg" alt="">
+                </div>
+                <div class="classic__description">
+                    <h1 class="title color-2">Classic Bridal</h1>
+                    <p class="text color-4">Our extraordinary diamonds are chosen to celebrate a love, a hope and a passion. Brilliantly capturing our passion for diamonds, a member of the family individually hand-selects each stone within our bridal collection, so you can fall in love with a diamond for eternity.</p>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-4"></span>
+                            <span class="back-color-4"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-4">Shop now</p>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="rings-container" id="categories">
+            <div class="rings">
+                <h2 class="subtitle uppercase-text color-4">Category</h2>
+                <h1 class="title color-4">Rings</h1>
+                <img src="images/pictures/ring-1.svg" alt="">
+            </div>
+        </section>
+        <section class="ring-carousel carousel-container">
+            <div class="carousel-titles">
+                <h2 class="subtitle uppercase-text color-1">Shop</h2>
+                <h1 class="title color-3">Selected for You</h1>
+            </div>
+            <div class="carousel-btn">
+                <a class="btn-link prev" onclick="prevTop()"><img class="btn-link__img" src="images/general/left.svg" alt="button left"></a>
+                <a class="btn-link next" onclick="nextTop()"><img class="btn-link__img" src="images/general/right.svg" alt="button right"></a>
+            </div>
+            <div class="carousel carousel-top">
+                <div class="carousel__slides1">
+                    <figure>
+                        <img src="images/pictures/ring.svg" alt="category rings" height="350" width="350">
+                        <figcaption class="color-1">18K Rose Gold Engagement Ring</figcaption>
+                    </figure>
+                </div>
+                <div class="carousel__slides1">
+                    <figure>
+                        <img src="images/pictures/large-ring.svg" alt="category rings">
+                        <figcaption class="color-1">Silver Ring</figcaption>
+                    </figure>
+                </div>
+                <div class="carousel__slides1">
+                    <figure>
+                        <img src="images/pictures/small-ring.svg" alt="category rings">
+                        <figcaption class="color-1">18K Gold Ring</figcaption>
+                    </figure>
+                </div>
+                <div class="carousel__slides1">
+                    <figure>
+                        <img src="images/pictures/small-ring.svg" alt="category rings">
+                        <figcaption class="color-1">18K Gold Ring</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="collections-container" id="collections">
+            <article class="collections">
+                <div class="description">
+                    <h1 class="title color-1">Collections</h1>
+                    <ul class="description__list">
+                        <li class="description__list-item"><a class="subtitle uppercase-text color-1" href="#">Swirl rings</a></li>
+                        <li class="description__list-item"><a class="subtitle uppercase-text color-1" href="#">Butterfly</a></li>
+                        <li class="description__list-item"><a class="subtitle uppercase-text color-1" href="#">Carissa</a></li>
+                    </ul>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-1"></span>
+                            <span class="back-color-1"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-1">View all</p>
+                    </a>
+                </div>
+                <div class="images-collections">
+                    <figure>
+                        <img src="images/pictures/model-3.svg" alt="">
+                    </figure>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-1"></span>
+                            <span class="back-color-1"></span>
+                        </div>
+                        <p class="btn-link__text uppercase-text color-1">View more</p>
+                    </a>
+            </article>
+        </section>
+        <section class="about-us" id="about">
+            <article class="about">
+                <h2 class="subtitle uppercase-text color-1">About us</h2>
+                <h1 class="title color-2">Excellence & Tradition</h1>
+                <div class="about__content">
+                    <div class="about__content-itens">
+                        <figure>
+                            <img src="images/pictures/jewel.svg" alt="">
+                        </figure>
+                        <div class="about-titles">
+                            <h2 class="subtitle uppercase-text color-2">Process</h2>
+                            <h3 class="title small-text color-1">Love is in the Details</h3>
+                        </div>
+                    </div>
+                    <div class="about__content-itens">
+                        <figure>
+                            <img src="images/pictures/bracelet.png" alt="">
+                        </figure>
+                        <div class="about-titles">
+                            <h2 class="subtitle uppercase-text color-2">Our story</h2>
+                            <h3 class="title small-text color-1">A family traditional</h3>
+                        </div>
+                    </div>
+                    <div class="about__content-itens">
+                        <figure>
+                            <img src="images/pictures/rings.svg" alt="">
+                        </figure>
+                        <div class="about-titles">
+                            <h2 class="subtitle uppercase-text color-2">Material</h2>
+                            <h3 class="title small-text color-1">We deliver the best quality</h3>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="meet-container">
+            <article class="meet">
+                <div class= "meet__titles">
+                    <h2 class="subtitle uppercase-text color-1">Events</h3>
+                    <h1 class="title color-2">Meet us at:</h1>
+                </div>
+                <div class= "meet__calendar">
+                    <div class="meet__calendar-date">
+                        <div class= "meet-day">
+                            <h2 class="subtitle uppercase-text color-1">April</h2>
+                            <h3 class="title color-2 small-text">19-20th</h3>
+                        </div>
+                        <div class= "meet-place">
+                            <address>
+                                <p class="strong-text">The shops at Chestnut Hill</p>
+                                <p class="weak-text">Bloomingdale's, Chestnut Hill, MA</p>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="meet__calendar-date">
+                        <div class= "meet-day">
+                            <h2 class="subtitle uppercase-text color-1">April</h2>
+                            <h3 class="title color-2 small-text">9th</h3>
+                        </div>
+                        <div class= "meet-place">
+                            <address>
+                                <p class="strong-text">Stuart Kingston Retailer</p>
+                                <p class="weak-text">3704 Kennett Pike Suite 450 Greenville, DE 19807</p>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="meet__calendar-date">
+                        <div class= "meet-day">
+                            <h2 class="subtitle uppercase-text color-1">April</h2>
+                            <h3 class="title color-2 small-text">19-20th</h3>
+                        </div>
+                        <div class= "meet-place">
+                            <address>
+                                <p class="strong-text">Shops at Chestnut Hill</p>
+                                <p class="weak-text">Bloomingdale's, Chestnut Hill, MA</p>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="instagram">
+            <aside class="social-media">
+                <div class="social-media__logo">
+                    <img src="images/icons/instagram-big.svg" alt="instagram icon">
+                    <h1 class="title color-3">Instagram</h1>
+                </div>
+                <address>
+                    <p>@smartshop</p>
+                </address>
+                <div class="carousel-container">
+                    <a class="btn-link prev" onclick="prev(this)"><img class="btn-link__img" src="images/general/left.svg" alt="button left"></a>
+                    <a class="btn-link next" onclick="next(this)"><img class="btn-link__img" src="images/general/right.svg" alt="button right"></a>
+                    <div class="carousel carousel-2" data-current="1">
+                        <div class="carousel__slides2">
+                            <img src="images/pictures/blue-ring.svg" alt="">
+                        </div>
+                        <div class="carousel__slides2" >
+                            <img src="images/pictures/blue-earring.svg" alt="">
+                        </div>
+                        <div class="carousel__slides2 active">
+                            <img src="images/pictures/necklace.svg" alt="" height="300" width="300">
+                        </div>
+                        <div class="carousel__slides2">
+                            <img src="images/pictures/ring-hand.svg" alt="">
+                        </div>
+                        <div class="carousel__slides2">
+                            <img src="images/pictures/model-2.svg" alt="">
+                        </div>
+                       
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <section class="stores" id="stores">
+            <div class="stores-container">
+                <div class="stores-container__itens">
+                    <h2 class="subtitle uppercase-text color-2">Stores</h2>
+                    <h1 class="title color-4">Find Store</h1>
+                    <a class="btn-link" href="#">
+                        <div class="button-circle">
+                            <span class="back-color-4"></span>
+                            <span class="back-color-4"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="links">
+                <div class="nav-menu">
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-4" href="#collections">Collections</a></li>
+                            <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-4" href="#categories">Categories</a></li>
+                            <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-4" href="#stores">Stores</a></li>
+                            <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-4" href="#about">Our Story</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nav-socialmedia">
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item"><a href="#"><img src="images/icons/facebook.svg" alt="facebook-icon"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/icons/instagram.svg" alt="instagram-icon"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/icons/twitter.svg" alt="twitter-icon"></a></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <a class="btn-contact uppercase-text color-4" href="#">Contact us</a>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h4 class="subtitle-small color-2">Sign up for our newsletter</h4>
+                <form action="#">
+                    <input type="email" id="email" name="email" placeholder="Enter your e-mail">
+                    <label for="email"></label>
+                    <button class="btn__subscribe uppercase-text back-color-2" type="submit">Subscribe</button>
+                </form>
+                <ul class="navigation__list">
+                    <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-6" href="#">Privacy policy</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-6" href="#">Returns and exchanges</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link uppercase-text color-6" href="#">Track order</a></li>
+                </ul>
+            </div>
+            <div class="information">
+                <div class="information__container">
+                    <p class="footer-text uppercase-text color-4">Contact Us</p>
+                    <address>
+                        <a class="color-4" href="owner@example.com">owner@example.com</a>
+                    </address>
+                </div>
+                <div class="information__container">
+                    <p class="footer-text uppercase-text color-4">Support</p>
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item"><a href="#"><img src="images/general/support.svg" alt="logo-gia"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/general/support.svg" alt="logo-gia"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/general/support.svg" alt="logo-gia"></a></li>
+                    </ul>
+                </div>
+                <div class="information__container">
+                    <p class="footer-text uppercase-text color-4">Payments methodos</p>
+                    <ul class="navigation__list">
+                        <li class="navigation__list-item"><a href="#"><img src="images/payments/Mastercard.svg" alt="mastercard payments"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/payments/Visa.svg" alt="visa payments"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/payments/Discover.svg" alt="discover payments"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/payments/Pay Pal.svg" alt="pay pal payments"></a></li>
+                        <li class="navigation__list-item"><a href="#"><img src="images/payments/American Express.svg" alt="american express payments"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="end">
+                <div class="end__container">
+                    <div class="end__container-text">
+                        <p class="color-4">Smart Age Solutions, &copy; 2019 | <span class="uppercase-text">Made with love by smart age solutions</span></p>
+                    </div>
+                    <div class="end__container-logo">
+                        <figure>
+                            <img src="images/logo/logo_small.svg" alt="logo smart age">
+                            <img class="logo__letter" src="images/logo/s-white.svg" alt="s">
+                            <img class="logo__letter" src="images/logo/m-white.svg" alt="m">
+                            <img class="logo__letter" src="images/logo/a-white.svg" alt="a">
+                            <img class="logo__letter" src="images/logo/r-white.svg" alt="r">
+                            <img class="logo__letter" src="images/logo/t-white.svg" alt="t">
+                            <img class="logo__letter" src="images/logo/a-white.svg" alt="a">
+                            <img class="logo__letter" src="images/logo/g-white.svg" alt="g">
+                            <img class="logo__letter" src="images/logo/e-white.svg" alt="e">
+                        </figure>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+        
+    </footer>
+    <script async type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>

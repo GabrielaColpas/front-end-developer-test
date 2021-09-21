@@ -1,0 +1,50 @@
+.normal-font{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid @color-beige;
+    display: inline-block;
+    margin: 0 1%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3%;
+    cursor: pointer;
+
+    .respond-tabletland({
+        padding-top: 1%;
+    });
+
+    .respond-desktop({
+        
+    });
+}
+
+.centralize{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-next-prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    z-index: 10;
+}
+
+//Media query
+.respond-tablet(@breakpoint){
+    @media screen and (min-width: 600px){@breakpoint();};
+}
+.respond-tabletland(@breakpoint){
+    @media screen and (min-width: 900px){@breakpoint();};
+}
+.respond-desktop(@breakpoint){
+    @media screen and (min-width: 1200px){@breakpoint();};
+}
+    

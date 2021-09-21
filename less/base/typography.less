@@ -1,0 +1,98 @@
+.uppercase-text{
+    text-transform: uppercase;
+}
+
+.title{
+    font-size: 2.6em;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;  
+    line-height: 119%;
+    letter-spacing: .1em;  
+
+    .respond-tablet({
+        font-size: 2.4em;
+    });
+    
+    .respond-tabletland({
+        font-size: 3.7em;
+    });
+
+    .respond-desktop({
+        font-size: 5em;
+    });
+
+}
+
+.subtitle{
+    font-size: 1.1em;
+    letter-spacing: .2em;
+    text-align: center;
+    .normal-font();
+
+    .respond-desktop({
+        font-size: 1.2em;
+        letter-spacing: .25em;
+    });
+}
+
+.text{
+    font-size: 1em;
+    line-height: 152%;
+    letter-spacing: .1em;
+    .normal-font();
+
+    .respond-tablet({
+        font-size: .9em;
+    });
+
+    .respond-desktop({
+        font-size: 1.2em;
+    });
+}
+
+figcaption{
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.3em;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+.btn-link{
+    &__text{
+        font-size: .8em;
+        line-height: 1em;
+        letter-spacing: .2em;
+        .normal-font();
+        }
+}
+
+.strong-text{
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    margin-bottom: -5%;
+    line-height: 130%;
+
+    .respond-tablet({
+        font-size: 1.1em;
+    });
+    
+    .respond-tabletland({
+        font-size: 1.5em;
+    });
+
+    .respond-desktop({
+        font-size: 2em;
+    });
+}
+
+.weak-text{
+    .normal-font();
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+}
